@@ -37,7 +37,7 @@ jobs:
       DB_PASSWORD: postgres
       DB_HOST: 127.0.0.1
       DB_PORT: 5432
-      DEBUG: "True"
+      DJANGO_DEBUG: "True"
 
     steps:
       - name: Checkout repository
